@@ -12,7 +12,7 @@ def nondim_cr3bp(t, Y, pi_2, t0s, t0j, rs, rj, pi_s, pi_j): ## Every input is a 
     Y_j = rj*m.sin(ang_pos_j)
 
 
-    # Get the position and velocity from the solution vector
+    # Get the position and velocity from the solution vectors
     x, y, z = Y[:3]
     xdot, ydot, zdot = Y[3:]
 

@@ -86,7 +86,7 @@ ax.plot(-pi_2, 0, 'bo', label="$m_1$")
 ax.plot(1 - pi_2, 0, 'go', label="$m_2$")
 ax.plot(x_0, y_0, 'ro')
 ax.set_aspect("equal")
-plt.show()
+plt.show()  #ggg
 
 plt.figure(2)
 ax.plot(t, np.sum((r[:, :3] - r2[:, :3])**2, axis = 0), 'r', label="Deviation")
